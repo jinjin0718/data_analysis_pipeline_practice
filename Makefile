@@ -36,7 +36,7 @@ all:
 	make report/count_report.html
 
 scratch: 
-	make clear
+	make clean
 	make results/isles.dat
 	make results/abyss.dat
 	make results/last.dat
